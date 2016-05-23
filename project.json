@@ -10,8 +10,8 @@
     }
   },
   "dependencies": {
-    "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-160316",
-    "Suave": "2.0.0-alpha-dotnetcli",
+    "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-160509",
+    "Suave": "2.0.0-alpha2",
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.0-rc2-3002702"

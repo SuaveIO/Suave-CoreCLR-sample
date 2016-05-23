@@ -1,9 +1,8 @@
-﻿// Learn more about F# at http://fsharp.org
-
-open System
+open Suave
 
 [<EntryPoint>]
 let main argv = 
-    printfn "Hello World!"
-    printfn "%A" argv
-    0 // return an integer exit code
+
+    startWebServer defaultConfig (Successful.OK "Hello World!")
+
+    0
