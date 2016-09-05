@@ -10,29 +10,24 @@
     }
   },
   "dependencies": {
-    "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-160509",
-    "Suave": "2.0.0-alpha4",
-    "Microsoft.NETCore.App": {
-      "type": "platform",
-      "version": "1.0.0-rc2-3002702"
-    }
+    "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-*",
+    "Suave": "2.0.0-alpha5"
   },
   "tools": {
     "dotnet-compile-fsc": {
-      "version": "1.0.0-preview1-*",
-      "imports": [
-        "dnxcore50",
-        "portable-net45+win81",
-        "netstandard1.3"
-      ]
+      "version": "1.0.0-preview2-*",
+      "imports": "dnxcore50"
     }
   },
   "frameworks": {
-    "netstandard1.5": {
-      "imports": [
-        "portable-net45+win8",
-        "dnxcore50"
-      ]
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      },
+      "imports": "dnxcore50"
     }
   }
 }

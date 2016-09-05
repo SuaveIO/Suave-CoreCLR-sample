@@ -32,7 +32,7 @@ let main argv =
     // start suave
     startWebServer
         { defaultConfig with
-            bindings = [ HttpBinding.mk HTTP args.IP args.Port ] }
+            bindings = [ HttpBinding.create HTTP args.IP args.Port ] }
         (Successful.OK "Hello World!")
 
     0
