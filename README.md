@@ -1,6 +1,6 @@
 # Sample Suave hello world using .NET Core
 
-1. Install .NET Core preview1 sdk from http://dot.net
+1. Install .NET Core SDK 1.0 sdk from http://dot.net
 2. `dotnet restore`
 3. `dotnet run`
 
@@ -14,7 +14,7 @@ Usage:
     --port PORT    port (Default: 8083)
 ```
 
-The dotnet version is `1.0.0-preview1-002702`
+The dotnet version is `1.0.1`
 
 ## Build Status
 
