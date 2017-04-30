@@ -4,7 +4,7 @@
 2. `dotnet restore`
 3. `dotnet run`
 
-by default it's avaiable at http://localhost:8083 
+by default it's available at http://localhost:8083 
 
 Use command line arguments to change ip/port
 
